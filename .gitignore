@@ -72,3 +72,49 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Ignorar arquivos temporários do Unreal Engine
+*.suo
+*.pdb
+*.pgb
+*.ilk
+*.exe
+*.log
+*.ini
+
+# Ignorar diretórios intermediários e arquivos de construção
+Intermediate/
+Saved/
+DerivedDataCache/
+Build/
+Binaries/
+*.uproject.user
+
+# Ignorar diretório NOVA/Saved/
+NOVA/Saved/
+
+# Ignorar arquivos de compilação e conteúdo gerados
+*.o
+*.a
+*.dll
+*.so
+*.dylib
+*.lib
+*.exp
+*.png
+*.jpg
+*.bmp
+*.svg
+*.ttf
+*.otf
+*.xcf
+*.xcf.gz
+*.uasset
+*.umap
+*.uexp
+*.uplugin
+*.uplugin.meta
+
+# Ignorar arquivos de backup
+*~
+
