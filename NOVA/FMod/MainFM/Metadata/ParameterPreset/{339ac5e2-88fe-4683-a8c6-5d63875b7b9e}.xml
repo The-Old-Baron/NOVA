@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{339ac5e2-88fe-4683-a8c6-5d63875b7b9e}">
+		<property name="name">
+			<value>Alarm State</value>
+		</property>
+		<relationship name="folder">
+			<destination>{46a13ec5-eaff-45c4-9e06-d21ac2fc8d4a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{76b8182a-9288-47e7-b21f-8c2c5e43ab53}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{76b8182a-9288-47e7-b21f-8c2c5e43ab53}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Reactor</value>
+			<value>Enemy</value>
+			<value>System</value>
+			<value>Generic</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
