@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{caf0e46a-6963-4de9-871b-0bbc198df3da}">
+		<property name="assetPath">
+			<value>BrokeDoor.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.750204081632653</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{6704b619-06a2-4807-b37f-1578aa8113a3}</destination>
+		</relationship>
+	</object>
+</objects>
