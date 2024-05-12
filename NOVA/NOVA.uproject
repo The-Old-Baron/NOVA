@@ -57,10 +57,6 @@
 		{
 			"Name": "FMODStudioNiagara",
 			"Enabled": true
-		},
-		{
-			"Name": "DiscordRpc",
-			"Enabled": true
 		}
 	]
 }
